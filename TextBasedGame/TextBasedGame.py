@@ -524,7 +524,7 @@ while validInput12 == False:
     airport1 = " At this airport, we have hundreds of flights that depart and land each day. At this airport, we use jet fuel called biofuel that doesn't have a bad impact on the environment like other jet fuels. This biofuel is better for our environment, and will help keep it sustainable. To complete task 2, type in a type of fuel that airplanes use that doesn't have a large negative impact on our environment"
     while o < len(airport1):
       print(airport1[o], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       o += 1
     validInput12 = True
     mixer.music.stop()
@@ -535,7 +535,7 @@ while validInput12 == False:
     tStation = "Welcome to the train station! At this train station, we have many trains that come and go. At this train station, all trains are electrically powered and do not rely on substances that harm our environment. Electrically powered trains have a minimal impact on the environment compared to others. To complete task 2, type in a power source that has a minimal impact on the environment"
     while p < len(tStation):
       print(tStation[p], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       p += 1
     validInput12 = True
     mixer.music.stop()
@@ -549,7 +549,7 @@ while validInput14 == False:
     T2com = "\nCongrats! You have successfully completed task 2. You typed in the correct answer. You walk back to the Sustainability Center to inform them that you have completed task 2. They tell that for task 3, you will have to explore sustainable food sources that help supply everyone in the city with food. To go tour around the city for sustainable food sources, type in the word (explore)\n"
     while q < len(T2com):
       print(T2com[q], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       q += 1
     validInput14 = True
   else:
@@ -562,7 +562,7 @@ while validInput15 == False:
     exp = "\nWhile you walk out of the sustainability center, you notice that many people have gardens in the frontyard or backyard of their house, or the balcony of their apartment. You learn that this is effective as it is cheaper for people, and lessens the amount of fertilizer and pesticides being used. \nOne effective method used in the city for growing produce, is to create indoor farms. These indoor farms are effective for growing foods as the environment can be controlled, and it doesn't take up too much land as the building can be built vertically. Now since you have learned a lot about sustainable food sources, type in one or more words that describe sustainable food sources\n"
     while r < len(exp):
       print(exp[r], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       r += 1
     validInput15 = True
   else:
@@ -575,7 +575,7 @@ while validInput16 == False:
     T3com = "Congrats on completing task 3. You are almost ready for the competition, just one more to go. For task 4, you job is to find ways you can protect and help your city. To explore the city to find ways to protect it, type in (park) if you want to go visit the park, or type in (city caves) to go visit the city's famous caves"
     while s < len(T3com):
       print(T3com[s], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       s += 1
     validInput16 = True
   else:
@@ -587,14 +587,14 @@ while validInput17 == False:
       parc = "\nWelcome to the park. Sustainable city has many parks in the city as they are very helpful towards the environment. Parks provide a home for many plants and animals in the city and they are important to have in a city. They are nice places that people can go to during the day. You walk back to the Sustainability Center to go complete the final task. You then get asked your final question.\n Type in one or more words that helps describe ways to protect your city\n"
       while t < len(parc):
         print(parc[t], end="", flush=True)
-        time.sleep(0.1)
+        time.sleep(0.01)
         t += 1
       validInput17 = True
     elif "city caves" in task4.lower():
       caves = "\nWelcome to the city caves. These caves have been here for a very long time, but they have been protected during the building of this city. Preserving ancient sites like this is important as they have a ton of value in our world today. One important value is teaching us about our past. You walk back to the Sustainability Center to go complete the final task. You then get asked your final question.\n Type in one or more words that helps describe ways to protect your city"
       while u < len(caves):
         print(caves[u], end="", flush=True)
-        time.sleep(0.1)
+        time.sleep(0.01)
         u += 1
       validInput17 = True
     else:
@@ -606,7 +606,7 @@ while validInput18 == False:
     comFour = ("Congratulations! You have completed all 4 tasks. You are now ready for the big competition.\n They tell you that competition begins soon and that all you should no be ready.")
     while v < len(comFour):
         print(comFour[v], end="", flush=True)
-        time.sleep(0.1)
+        time.sleep(0.01)
         v += 1
     validInput18 = True
   else:
@@ -616,19 +616,19 @@ while validInput19 == False:
   weeks = "A few weeks later."
   while w < len(weeks):
         print(weeks[w], end="", flush=True)
-        time.sleep(0.1)
+        time.sleep(0.01)
         w += 1
   comp = "To compete in the competition using all the skills that you have just acquired, type in the word (competition) to compete in the Sustainability Competition"
   while x < len(comp):
     print(comp[x], end="", flush=True)
-    time.sleep(0.1)
+    time.sleep(0.01)
     x += 1
   compete = input(" >> ")
   if "competition" in compete.lower():
     competition1 = "To complete the Sustainability Competition, remind yourself of the book you read, Happy Right Now. One of the main things being taught in the book Happy Right Now is making good choices. Explain good choices that could impact your city positively. Explain using around 2 sentences. Also, feel free to write about your own design for a city."
     while y < len(competition1):
         print(competition1[y], end="", flush=True)
-        time.sleep(0.1)
+        time.sleep(0.01)
         y += 1
     validInput19 = True
   else:
@@ -644,7 +644,7 @@ while validInput20 == False:
     amaz = "Amazing work. You have won the competition. Good job a I hope you enjoyed playing this game."
     while z < len(amaz):
         print(amaz[z], end="", flush=True)
-        time.sleep(0.1)
+        time.sleep(0.01)
         z += 1
     validInput20 = True
     mixer.music.stop()
