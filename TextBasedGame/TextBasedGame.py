@@ -344,7 +344,7 @@ while validInput == False:
     start1 = "Type in (start) to begin"
     while a < len(start1):
       print(start1[a], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       a += 1
     start = input(" >> ")
     mixer.music.stop()
@@ -372,7 +372,7 @@ while validInput1 == False:
         welcome = "You are walking down the street, and you see a book store to your right. You enter the book store, and you notice that one of the best selling books is Happy Right Now. You read the book, and you understand that the three most important values being told are happiness, empathy, and gratitude. The store owner then tells you that these values are important values among people in the city. The owner also says that equity and inclusion are two important JEDI values you will also see around the city. You then decide to go explore the city more. Type (pizza shop) if you want to go get pizza, or type (sushi shop) if you want to get sushi\n"
         while c < len(welcome):
           print(welcome[c], end="", flush=True)
-          time.sleep(0.1)
+          time.sleep(0.01)
           c += 1
         print(bookAscii())
         validInput1 = True
@@ -390,7 +390,7 @@ while validInput2 == False:
       sShop = "\nWelcome to the sushi shop. Here, you try sushi for the first time and it ends up being the best\n thing you have ever tasted. While eating your sushi, you notice a piece of paper on the ground and\n you walk over to pick it up. The paper looks like this.\n"
       while d < len(sShop):
           print(sShop[d], end="", flush=True)
-          time.sleep(0.1)
+          time.sleep(0.01)
           d += 1
       print(competition())
       validInput2 = True
@@ -400,7 +400,7 @@ while validInput2 == False:
       pShop = "\nWelcome to the pizza shop. Here, you try pizza for the first time and it ends up being the best\n thing you have ever tasted. While eating your pizza, you notice a piece of paper on the ground and\n you walk over to pick it up. The paper looks like this.\n"
       while e < len(pShop):
           print(pShop[e], end="", flush=True)
-          time.sleep(0.1)
+          time.sleep(0.01)
           e += 1
       print(competition())
       validInput2 = True
@@ -411,7 +411,7 @@ while validInput3 == False:
   goToS = "Type in (start) to go to the Sustainability Center"
   while f < len(goToS):
           print(goToS[f], end="", flush=True)
-          time.sleep(0.1)
+          time.sleep(0.01)
           f += 1
   sCenter = input(" >> ")
   if "start" in sCenter.lower():
@@ -419,14 +419,14 @@ while validInput3 == False:
     sub = "\nYou now take the subway over to where the Sustainability Center is.\n"
     while g < len(sub):
       print(sub[g], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       g += 1
     print(subway())
     print(skyscraper())
     fDesk = ("You walk into the large building, and walk up to the front desk to request to participate in the competition. The person at the front desk signs you up, and tells you what the first task is.\n She says that the first task revolves around the word 'sustainability.' You will have to explore the city and try to find the meaning of this word. Type in (begin) to start working on task 1 ")
     while h < len(fDesk):
       print(fDesk[h], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       h += 1
     validInput3 = True
   else:
@@ -439,7 +439,7 @@ while validInput4 == False:
     walkAround = "\nYou walk around the city deciding on where to go to work on the first task. Type in (library) to visit the library to find information, or (book store) to go back to the book store you were at earlier to find information for task 1"
     while i < len(walkAround):
       print(walkAround[i], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       i += 1
     validInput4 = True
   else: 
@@ -453,7 +453,7 @@ while validInput5 == False:
     lib = "\nWelcome to the library. When you enter the library, you are amazed by the size of the building and the amount of books that you see. You browse the shelves in the building, and you find yourself searching the section that has books on developing a sustainable city.\n You find two books, one called 'The Word Sustainability' and the second one called 'The Idea Behind a Sustainable City.' To read 'The Word Sustainability', type in (book 1), and to read 'The Idea Behind a Sustainable City', type in (book 2)"
     while j < len(lib):
       print(lib[j], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       j += 1
     validInput5 = True
   elif "book store" in information.lower():
@@ -462,7 +462,7 @@ while validInput5 == False:
     bStore = "\nWelcome to the book store. When you enter the book store, you are amazed by the size of the building and the amount of books that you see. You browse the shelves in the building, and you find yourself searching the section that has books on developing a sustainable city.\n You find two books, one called 'The Word Sustainability' and the second one called 'The Idea Behind a Sustainable City.' To read 'The Word Sustainability', type in (book 1), and to read 'The Idea Behind a Sustainable City', type in (book 2)"
     while k < len(bStore):
       print(bStore[k], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       k += 1
     validInput5 = True
   else:
@@ -476,7 +476,7 @@ while validInput7 == False:
     open = "\nYou slowly open up the book to page 1 and you start reading. On page 1, the book says sustainability is 'the ability to maintain something at a certain rate or level.'\n"
     while l < len(open):
       print(open[l], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       l += 1
     validInput7 = True
   elif "book 2" in bookStore.lower():
@@ -485,7 +485,7 @@ while validInput7 == False:
     open2 = "\nYou slowly open up the book to page 1 and you start reading. On page 1, the book says that sustainable cities are 'are inclusive, safe, and resilient.'\n"
     while m < len(open2):
       print(open2[m], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       m += 1
     validInput7 = True
   else:
@@ -503,7 +503,7 @@ while validInput11 == False:
     congrats1 = "\n You walk back to the Sustainability Center and tell the front desk that you have completed task 1. They tell you that the second task is to explore sustainable ways of transportation. To go to the train station for task 2, type in (train station). To go to the airport, type in (airport)\n"
     while n < len(congrats1):
       print(congrats1[n], end="", flush=True)
-      time.sleep(0.1)
+      time.sleep(0.01)
       n += 1
     validInput11 = True
   else:
