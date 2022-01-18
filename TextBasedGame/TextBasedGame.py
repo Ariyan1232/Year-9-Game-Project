@@ -650,7 +650,7 @@ while validInput20 == False:
     mixer.music.stop()
   else:
     print("Sorry, you didn't win the competition. Amazing work in everything else, and I hope you enjoyed playing this game. Feel free to try playing again.")
-
+    validInput20 = True
 #import time
 
 #time.sleep(0.5)
