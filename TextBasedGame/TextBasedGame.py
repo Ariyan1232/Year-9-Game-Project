@@ -329,9 +329,7 @@ def clear():
 #clear
 #https://replit.com/talk/ask/How-do-I-make-my-text-in-Python-disappear-when-the-user-presses-a-key/43147
 
-#r = sr.Recognizer
 
-#def speechCommand (command): #https://www.geeksforgeeks.org/python-convert-speech-to-text-and-text-to-speech/, https://www.freecodecamp.org/news/python-project-how-to-build-your-own-jarvis-using-python/
 
 sCity = "Sustainable City."
 printString = termcolor.colored(sCity, 'green')
@@ -354,7 +352,7 @@ while validInput == False:
       mixer.music.play()
       print(city())
       print("Welcome to ",printString,"")
-      begin1 = "In this game, you will be required to find the mysteries of one of the most technological advanced cities in the world. You will be provided with three items, an apple, an orange, and a key. You will be told when you will be able to use these items. In this game, you need to complete a certain amount of tasks. You will win once you collect 4 points from doing tasks. In this game you will have to type something up when you see two arrows which looks like this '>>'. Most of the time, you will need to type in word(s) that are included in brackets which look like this '()'. Sometimes, the question may not provide you with words to type in, so you may have to type in what you think the answers should be. Good luck and I hope you enjoy your adventure! If you are ready, type in the word (begin)"
+      begin1 = "In this game, you will be required to find the mysteries of one of the most technological advanced cities in the world. In this game, you need to complete a certain amount of tasks. You will win once you collect 4 points from doing tasks. In this game you will have to type something up when you see two arrows which looks like this '>>'. Most of the time, you will need to type in word(s) that are included in brackets which look like this '()'. Sometimes, the question may not provide you with words to type in, so you may have to type in what you think the answers should be. Good luck and I hope you enjoy your adventure! If you are ready, type in the word (begin)"
       while b < len(begin1):
         print(begin1[b], end="", flush=True)
         time.sleep(0.1)
@@ -651,24 +649,13 @@ while validInput20 == False:
   else:
     print("Sorry, you didn't win the competition. Amazing work in everything else, and I hope you enjoyed playing this game. Feel free to try playing again.")
     validInput20 = True
-#import time
-
-#time.sleep(0.5)
 
 
+#https://www.google.com/search?q=importance+of+world+heritage+sites&source=lmns&bih=660&biw=1420&rlz=1C5GCEM_enCA976CA976&hl=en&sa=X&ved=2ahUKEwi-8pOb36X1AhXBqnIEHSvuDDwQ_AUoAHoECAEQAA
 
-  
+#https://www.google.com/search?q=why+is+having+parks+in+cities+good&rlz=1C5GCEM_enCA976CA976&oq=why+is+having+parks+in+cities+good&aqs=chrome..69i57.6373j0j7&sourceid=chrome&ie=UTF-8
 
-# REMEMBER TO USE ITEMS AND TALK ABOUT THE OTHER VALUES
-# Use colour fonts
-
-
-        #https://www.google.com/search?q=importance+of+world+heritage+sites&source=lmns&bih=660&biw=1420&rlz=1C5GCEM_enCA976CA976&hl=en&sa=X&ved=2ahUKEwi-8pOb36X1AhXBqnIEHSvuDDwQ_AUoAHoECAEQAA
-
-        #https://www.google.com/search?q=why+is+having+parks+in+cities+good&rlz=1C5GCEM_enCA976CA976&oq=why+is+having+parks+in+cities+good&aqs=chrome..69i57.6373j0j7&sourceid=chrome&ie=UTF-8
-
-        #https://sdgs.un.org/goals/goal11
-
+#https://sdgs.un.org/goals/goal11
 
 #http://www.asciiworld.com/-Buildings,202-.html
 
